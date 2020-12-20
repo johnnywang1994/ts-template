@@ -5,10 +5,17 @@
     "strict": true,
     "noImplicitReturns": true,
     "noImplicitAny": true,
+    "allowSyntheticDefaultImports": true,
     "module": "es6",
     "moduleResolution": "node",
     "target": "es5",
     "allowJs": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    }
   },
   "include": [
     "./src/**/*"

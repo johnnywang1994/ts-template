@@ -25,7 +25,10 @@ const config = {
       '.tsx',
       '.ts',
       '.js'
-    ]
+    ],
+    alias: {
+      '@': path.resolve(__dirname, './src')
+    }
   }
 };
 
